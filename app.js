@@ -6,7 +6,7 @@ var budgetController = (function(){
 
     return {
         publicTest: function(b){
-            console.log(add(b));
+            return add(b);
         }
     }
 })();
